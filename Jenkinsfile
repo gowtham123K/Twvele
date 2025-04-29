@@ -20,7 +20,7 @@ pipeline {
             steps{
                 bat'''
                 call venv\\Scripts\\activate
-                pytest test.py
+                pytest tet.py
                 '''
             }
         }
